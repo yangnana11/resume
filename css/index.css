@@ -1,0 +1,186 @@
+body {
+/*    background-color: #e8e8e8 !important;*/
+    font-family: 'Barlow', sans-serif;
+    color: #2d3c44;
+}
+b{
+    font-style: italic;
+    font-size: 14px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 100%;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{
+    position:relative;
+    min-height:1px;
+    padding-right:15px;
+    padding-left:15px;
+    float: left;
+}
+.col-xs-12{width:100%}
+.col-xs-11{width:91.66666667%}
+.col-xs-10{width:83.33333333%}
+.col-xs-9{width:75%}
+.col-xs-8{width:66.66666667%}
+.col-xs-7{width:58.33333333%}
+.col-xs-6{width:50%}
+.col-xs-5{width:41.66666667%}
+.col-xs-4{width:33.33333333%}
+.col-xs-3{width:25%}
+.col-xs-2{width:16.66666667%}
+.col-xs-1{width:8.33333333%}
+.region {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.region:after { 
+    content: " "; 
+    display: block;
+    clear: both;
+} 
+.region .subject {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+/*    font-weight: bold;*/
+}
+.head-desp, .head-info {
+    vertical-align: middle;
+}
+.head-desp {
+/*    font-size: 25px;*/
+/*    font-family: 'Didact Gothic', sans-serif;*/
+    font-family: 'Josefin Sans', sans-serif;
+/*    text-transform: uppercase;*/
+}
+.profile-name-section {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #2d3c44;
+    margin-bottom: 20px;
+}
+.profile-name {
+    font-size: 35px;
+/*    font-weight: bold;*/
+}
+.profile-icon-section {
+    line-height: 30px;
+}
+.profile {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    background-image: url("../img/profile.jpeg") !important;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.seperate-container{
+    height: 10px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #c3c4c6;
+}
+.subject {
+    display: flex;
+    line-height: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #ababab;
+    margin-bottom: 15px;
+}
+.icon-border {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-right: 10px;
+/*    line-height: 30px;*/
+    text-align: center;
+}
+.icon-border i {
+    color: white !important;
+    font-size: 15px;
+}
+.no-left-padding {
+    padding-left: 0px;
+}
+.no-right-padding {
+    padding-right: 0px;
+}
+.skill-background {
+    background-color: #bfbec3 !important;
+    float: right;
+    width: calc(100% - 120px);
+    height: 10px;
+    margin-top: 5px;
+}
+.skill-value {
+    height: 100%;
+/*    width: 80%;*/
+    background-color: black !important;
+}
+.job-title, .edu-title, .cert-title, .skill-title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+/*    font-weight: bold;*/
+}
+.job-duration, .edu-time {
+    padding-bottom: 13px;
+    border-bottom: 2px solid #2d3c44;
+}
+.job-duration, .edu-time, .cert-school {
+/*    color: #a6a6a6;*/
+    color: #848484;
+}
+.job-company, .edu-school {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.job-desp {
+    text-align: justify;
+}
+.job-detail, .edu-detail, .cert-detail, .skill-detail, .training-detail, .honor-detail {
+    padding-top: 15px;
+    overflow: hidden;
+}
+.ref-name {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.ref-detail {
+    padding-top: 15px;
+    line-height: 20px;
+}
+.profile-text {
+    text-align: justify;
+}
+.fixed-col {
+    width: 200px !important;
+}
+.others {
+    width: calc(100% - 200px) !important;
+}
+
+@media (min-width:768px){.container{width:750px}}
+@media (min-width:992px){.container{width:970px}}
+@media (min-width:1200px){.container{width:1170px}}
